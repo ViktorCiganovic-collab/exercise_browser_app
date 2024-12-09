@@ -1,0 +1,44 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Ensure html and body take up the full viewport */
+html,
+body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+}
+
+/* Set the body background to the desired gradient */
+body {
+  background: linear-gradient(135.8deg, rgb(26, 26, 29) 27.1%, rgb(111, 34, 50) 77.5%);
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the gradient stretches fully */
+  background-attachment: fixed; /* Ensures smooth scrolling if needed */
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Example for ensuring other CSS customizations */
+.heading {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.card {
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05) !important;
+}
